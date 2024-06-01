@@ -4,42 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js" defer></script>
     <title>Admin DashBoard</title>
 </head>
 <body>
     <div class="admin">
         <div class="sidebar">
-            <h2>Dashboard</h2>
+            <h2 class="sideDash"><span class="iconify" data-icon="mdi-view-dashboard"></span>Dashboard</h2>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><span class="iconify" data-icon="mdi-home"></span>Home</li>
+                <li><span class="iconify" data-icon="mdi-card-account-details-outline"></span>Profile</li>
+                <li><span class="iconify" data-icon="mdi-message-reply"></span>Messages</li>
+                <li><span class="iconify" data-icon="mdi-history"></span>History</li>
+                <li><span class="iconify" data-icon="mdi-note-multiple-outline"></span>Tasks</li>
+                <li><span class="iconify" data-icon="mdi-account-group"></span>Communities</li>
             </ul>
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><span class="iconify" data-icon="mdi-cog"></span>Settings</li>
+                <li><span class="iconify" data-icon="mdi-face-agent"></span>Support</li>
+                <li><span class="iconify" data-icon="mdi-shield-check"></span>Privacy</li>
             </ul>
         </div>
         <div class="adminContainer">
             <div class="header">
                 <div class="top">
                     <div class="left">
-                        <label for="">Search</label>
+                        <span class="iconify" data-icon="mdi-magnify"></span>
                         <input type="text">
                     </div>
                     <div class="right">
-                        <label for="">Notifications</label>
-                        <img src="" alt="profileImg">
+                        <span class="iconify" data-icon="mdi-bell-ring"></span>
+                        <img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg topHeader">
                         <p class="userName">Morgan Oakley</p>
                     </div>
                 </div>
                 <div class="down">
                     <div class="left">
-                        <img src="" alt="profileImg">
+                        <img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg">
                         <div class="details">
                             <p>Hi there,</p>
                             <p>Morgan Oakley (@morgan)</p>
@@ -62,9 +63,9 @@
                                 <p class="cardContent">Super Cool Project description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                         <div class="card2">
@@ -73,9 +74,9 @@
                                 <p class="cardContent">Less Cool Project description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                         <div class="card3">
@@ -84,9 +85,9 @@
                                 <p class="cardContent">Impossible App description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                         <div class="card4">
@@ -95,9 +96,9 @@
                                 <p class="cardContent">Easy Peasy App description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                         <div class="card5">
@@ -106,9 +107,9 @@
                                 <p class="cardContent">Ad Blocker description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                         <div class="card6">
@@ -117,9 +118,9 @@
                                 <p class="cardContent">Money Maker description</p>
                             </div>
                             <div class="rating">
-                                <img src="" alt="star">
-                                <img src="" alt="view">
-                                <img src="" alt="fork">
+                                <span class="iconify" data-icon="mdi-star-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-eye-plus-outline"></span>
+                                <span class="iconify" data-icon="mdi-source-fork"></span>
                             </div>
                         </div>
                     </div>
@@ -131,10 +132,12 @@
                             <div class="announcement">
                                 <p class="annoucementTitle">Site Maintenance</p>
                                 <p class="announcementDesc">Site Maintenance Desc</p>
+                                <hr>
                             </div>
                             <div class="announcement">
                                 <p class="annoucementTitle">Community Share Day</p>
                                 <p class="announcementDesc">Community Share Day Desc</p>
+                                <hr>
                             </div>
                             <div class="announcement">
                                 <p class="annoucementTitle">Updated Privacy Policy</p>
@@ -146,19 +149,19 @@
                         <h4>Trending</h4>
                         <div class="trending">
                             <div class="trend">
-                                <p class="tagName">@tegan</p>
+                                <p class="tagName"><img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg trend">@tegan</p>
                                 <p class="userTag">World Peace Builder</p>
                             </div>
                             <div class="trend">
-                                <p class="tagName">@morgan</p>
+                                <p class="tagName"><img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg trend">@morgan</p>
                                 <p class="userTag">Super Cool Project</p>
                             </div>
                             <div class="trend">
-                                <p class="tagName">@kendall</p>
+                                <p class="tagName"><img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg trend">@kendall</p>
                                 <p class="userTag">Life Changing App</p>
                             </div>
                             <div class="trend">
-                                <p class="tagName">@alex</p>
+                                <p class="tagName"><img src="https://pbs.twimg.com/profile_images/1393447247233306626/RxPFy1Iv_400x400.jpg" alt="profileImg" class="profileImg trend">@alex</p>
                                 <p class="userTag">No Traffic Maker</p>
                             </div>
                         </div>

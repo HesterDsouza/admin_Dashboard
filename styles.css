@@ -7,9 +7,21 @@
     flex: 5;
 }
 
+.sideDash{
+    display: flex;
+    gap: 5px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    font-size: 18px;    
+}
+
 .header .top{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header .top .left,.right{
@@ -18,9 +30,26 @@
     gap: 15px;
 }
 
+.profileImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileImg.topHeader{
+    width: 50px;
+    height: 50px;
+}
+
+.profileImg.trend{
+    height: 30px;
+    width: 30px;
+}
+
 .header .down{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header .down .left,.right{
@@ -31,11 +60,30 @@
 
 .content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .projectCards{
     display: grid;
+    gap: 50px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+.content .right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trend .tagName{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
