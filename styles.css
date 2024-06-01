@@ -1,0 +1,41 @@
+.admin{
+    display: flex;
+    flex: 1;
+}
+
+.adminContainer{
+    flex: 5;
+}
+
+.header .top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .top .left,.right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .down{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .down .left,.right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
