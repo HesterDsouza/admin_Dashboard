@@ -118,8 +118,8 @@ ul li{
 }
 
 .profileImg.trend{
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
 }
 
 .header .down{
@@ -189,11 +189,11 @@ ul li{
 .content{
     padding: 10px 40px;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     background-color: #f5f5f5;
 }
 
-.content .left h4{
+.content .left h4, .content .right h4{
     font-size: 20px;
 }
 
@@ -201,7 +201,6 @@ ul li{
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
 }
 
 .card{
@@ -223,26 +222,74 @@ ul li{
 .cardDetails{
     width: 350px;
     height: 150px;
-    /* overflow-y: scroll; */
     margin-bottom: 20px;
 }
 
 .cardTitle{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
+}
+
+.cardContent{
+    font-size: 16px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.rating{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    justify-content: end;
+}
+
+.rating .iconify{
+    font-size: 25px;
 }
 
 .content .right{
     display: grid;
+    gap: 40px;
+}
+
+.announcements, .trending{
+    background-color: #fff;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 6px 4px #bbb;
+}
+
+.annoucementTitle{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.announcementDesc{
+    font-size: 14px;
+    color: #555;
 }
 
 .trending{
     display: grid;
-    gap: 5px;
+    gap: 15px;
 }
 
-.trend .tagName{
-    display: flex;
+.trend{
+    display: grid;
+    grid-template-columns: 60px 150px;
     align-items: center;
-    gap: 5px;
+}
+
+.tendText{
+    display: grid;
+    grid-template-rows: repeat(2, 30px);
+}
+
+.tagName{
+    font-weight: 500
+}
+
+.userTag{
+    font-size: 14px;
+    color: #555;
 }
