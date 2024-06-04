@@ -29,6 +29,7 @@ body{
     gap: 5px;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .sideDash .iconify{
@@ -38,6 +39,8 @@ body{
 .navigation{
     display: grid;
     grid-template-rows: repeat(6, 30px);
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .personal{
@@ -49,12 +52,17 @@ body{
     font-size: 22px;
 }
 
+ul{
+    row-gap: 20px;
+}
+
 ul li{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 30px);
-    gap: 5px;
-    font-size: 18px;    
+    column-gap: 5px;
+    row-gap: 10px;
+    font-size: 18px;
 }
 
 .header{
